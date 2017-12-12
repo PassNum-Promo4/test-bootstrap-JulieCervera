@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
+
 <body>
-  <img src="http://fakeimg.pl/150/" alt="fakeimage">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <button type="button">Oui</button>
-  <button type="button">Non</button>
-  <h1>Lorem Ipsum</h1>
-  <p>Aenean eget lorem ac mi tristique volutpat. 
-  Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
-  <a href="#">Super</a>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
+  <div class="d-flex flex-column flex-md-row">
+    <header class="bg-dark d-flex flex-column justify-content-start align-items-center p-2 col-12 col-md-4">
+      <img class="rounded-circle" src="http://fakeimg.pl/150/" alt="fakeimage">
+      <p class="text-light font-weight-bold p-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas
+        eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+      </p>
+      <div class="d-flex justify-content-around m-5" style="width:100%">
+        <button type="button" class="btn btn-success">Oui</button>
+        <button type="button" class="btn btn-danger">Non</button>
+      </div>
+    </header>
+    <div class="col-12 col-md-8 p-0">
+      <div class="p-2 d-flex flex-column justify-content-start align-items-start">
+        <h1>Lorem Ipsum</h1>
+        <p>Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
+        <a class="btn btn-primary" href="#">Super</a>
+      </div>
+      <div class="bg-light p-4 d-flex flex-column flex-lg-row align-items-start flex-lg-wrap">
+        <div class="d-flex flex-column col-12 col-lg-6 align-items-center">
+          <img src="http://fakeimg.pl/300/" alt="fakeimg">
+          <p class="font-weight-bold m-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas
+            eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+        </div>
+        <div class="d-flex flex-column col-12 col-lg-6 align-items-center">
+          <img src="http://fakeimg.pl/300/" alt="fakeimg">
+          <p class="font-weight-bold m-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas
+            eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+        </div>
+        <div class="d-flex flex-column col-12 col-lg-6 align-items-center">
+          <img src="http://fakeimg.pl/300/" alt="fakeimg">
+          <p class="font-weight-bold m-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas
+            eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+        </div>
+        <div class="d-flex flex-column col-12 col-lg-6 align-items-center">
+          <img src="http://fakeimg.pl/300/" alt="fakeimg">
+          <p class="font-weight-bold m-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas
+            eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
+
 </html>
